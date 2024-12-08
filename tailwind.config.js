@@ -10,9 +10,6 @@ module.exports = {
         dimWhite: "rgba(255, 255, 255, 0.7)",
         dimBlue: "rgba(9, 151, 124, 0.1)",
       },
-      backgroundImage: {
-                'my-gradient': 'radial-gradient(64.18% 64.18% at 71.16% 35.69%, #def9fa 0.89%, #bef3f5 17.23%, #9dedf0 42.04%,#7de7eb 55.12%,#5ce1e6 71.54%,#33bbcf 100%)',
-            },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
       },
