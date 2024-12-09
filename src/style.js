@@ -13,13 +13,11 @@ const styles = {
   
     marginX: "sm:mx-16 mx-6",
     marginY: "sm:my-16 my-6",
-
-    button: 'w-[170px] h-[64px] bg-blue-gradient rounded-[10px] font-medium font-poppins text-[18px]'
   };
   
   export const layout = {
     section: `flex md:flex-row flex-col ${styles.paddingY}`,
-    sectionReverse: `flex md:flex-row flex-col-reverse ${styles.paddingY}`,
+    sectionReverse: `flex md:flex-row-reverse flex-col-reverse ${styles.paddingY}`,
   
     sectionImgReverse: `flex-1 flex ${styles.flexCenter} md:mr-10 mr-0 md:mt-0 mt-10 relative`,
     sectionImg: `flex-1 flex ${styles.flexCenter} md:ml-10 ml-0 md:mt-0 mt-10 relative`,
