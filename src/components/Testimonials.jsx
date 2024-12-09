@@ -1,6 +1,6 @@
 import Styles, { layout } from "../style";
 import { quotes } from "../assets";
-import { feedback } from "../constants";
+import {feedback} from "../constants";
 
 const FeedbackCard = ({ image, title, content, person }) => (
   <div className="flex flex-col justify-between feature-card px-[40px] py-[60px] rounded-[20px] flex-1 max-w-[370px] min-w-[300px] min-h-[395px]">
