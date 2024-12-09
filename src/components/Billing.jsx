@@ -6,7 +6,7 @@ const Billing = () => (
   <section id="billing" className={`${layout.sectionReverse} md:items-center`}>
     <div className="flex-1">
       <h2 className={`${Styles.heading2} text-white`}>
-        Easily control your <br /> billing & invoicing.
+        Easily control your <br className="hidden md:block" /> billing & invoicing.
       </h2>
       <p
         className={`${Styles.paragraph} max-w-[570px] mt-6 mr-[52px] mb-[48px]`}>

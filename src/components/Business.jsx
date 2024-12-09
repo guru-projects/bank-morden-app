@@ -20,7 +20,7 @@ const Business = () => (
     className={` ${Styles.paddingY} flex md:flex-row flex-col gap-10 md:gap-20 mt-10 md:mt-0`}>
     <div className="flex-1">
       <h2 className={`${Styles.heading2} text-white`}>
-        You do the business, <br />
+        You do the business, <br className="hidden md:block" />
         we’ll handle the money.
       </h2>
       <p
