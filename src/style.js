@@ -13,6 +13,8 @@ const styles = {
   
     marginX: "sm:mx-16 mx-6",
     marginY: "sm:my-16 my-6",
+
+    button: 'w-[170px] h-[64px] bg-blue-gradient rounded-[10px] font-medium font-poppins text-[18px]'
   };
   
   export const layout = {
