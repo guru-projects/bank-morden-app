@@ -25,7 +25,7 @@ const Footer = () => (
             </h4>
             <ul className="space-y-2">
               {footerLink.links.map((link, index) => (
-                <li key={index} className="text-dimWhite hover:text-secondary font-poppins font-medium text-[16px] leading-[24px]">
+                <li key={index} className="text-dimWhite hover:text-secondary font-poppins font-normal text-[16px] leading-[24px]">
                   {link.name}
                 </li>
               ))}

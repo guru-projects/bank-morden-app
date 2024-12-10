@@ -11,8 +11,8 @@ const FeedbackCard = ({ image, title, content, person }) => (
     <div className="flex gap-4">
       <img src={image} alt={image} className="w-[48px] h-[48px]" />
       <div>
-        <h4 className="text-white">{person}</h4>
-        <p className="text-dimWhite opacity-50">{title}</p>
+        <h4 className="text-white text-[18px] font-poppins font-semibold">{person}</h4>
+        <p className="text-dimWhite">{title}</p>
       </div>
     </div>
   </div>
